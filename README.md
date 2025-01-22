@@ -1,5 +1,5 @@
 # ESET-KeyGen
-ESET-KeyGen - Trial-Key & Account generator for ESET Antivirus (last test was on 09.10.2024 at 03:48 UTC+3)
+ESET-KeyGen - Trial-Key & Account generator for ESET Products (last test was on 21.01.2025 at 17:58 UTC+3)
 
 # Project Preview
 ![](img/project_preview.png)
@@ -17,7 +17,7 @@ ESET-KeyGen - Trial-Key & Account generator for ESET Antivirus (last test was on
 - Current Status: Active development
 
 ## Known Errors
-- White browser window while not in use **--no-headless**
+- **Mailticking** added **cloudflare** captcha
 - **ACT0** error may occur during activation in some cases
 - **ecp4125** activation error has been reported by some users
 - **ESET ProtectHub** has an aggressive policy for temporary email addresses!
@@ -27,13 +27,15 @@ ESET-KeyGen - Trial-Key & Account generator for ESET Antivirus (last test was on
 - Support
 
 ---
+## Useful links to download ESET products:
+- [Antivirus free trial](https://www.eset.com/int/home/free-trial/)
+- [VPN](https://home.eset.com/download/vpn)
+
+---
 ### Project files are detected as viruses by ESET, this is not true!
 To stop my project from being blocked by antivirus, add the project folder to the exclusion list:
 
 ESET -> Settings -> Advanced Setup -> Detection Engine -> Exclusions -> Detection Exclusions -> add ```full path to ESET-KeyGen-main folder```
-
-That's it!
----
 
 ---
 ### My github page is currently blocked by ESET Antivirus, so you will not be able to access the project.
@@ -98,8 +100,10 @@ Delete your current ESET HOME account
 ## How to use (Part 2)
 1. [Account Generator](wiki/AccountGenerator.md)
 2. [Key Generator](wiki/KeyGenerator.md)
-3. [Command Line Arguments](wiki/CommandLineArguments.md)
-4. [Updater](wiki/Updater.md)
+3. [Reset ESET VPN](wiki/ResetEsetVPN.md)
+4. [Command Line Arguments](wiki/CommandLineArguments.md)
+5. [Updater](wiki/Updater.md)
+6. [Installer](wiki/Installer.md)
 ---
 
 # Additional information
